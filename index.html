@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>MYGSBAE'S WEBSITE</title>
+	<meta name="viewport"content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  	<div class="hero">
+	<div class="nav-bar">
+		<div class="nav-logo">
+			<img src="mygsbae.png">
+		</div>
+
+		<div class="nav-links" id="nav-links">
+			<i class="fa fa-close" onclick="closeMenu()"></i>
+			<ul>
+				<a href="spo.html"><li>spotify</li></a>
+				<a href="yt.html"><li>youtube</li></a>
+				<a href="am.html"><li>apple music</li></a>
+			</ul>
+			<a href="lg.html"><button type="button" class="btn">login</button></a>
+		</div>
+		<div><i class="fa fa-bars" onclick="showMenu()"></i></div>
+	</div>
+	
+	<div class="banner-title">
+		<br>
+		<br>
+		<h1>Hello fellas! <span>I made this mini<br>website</span> to all people who want to<br>know about <span>BTS and their music.</span></h1>
+
+		<a href="https://en.wikipedia.org/wiki/BTS"><button type="button" class="btn">Who's BTS?</button></a>
+	</div>
+
+	<div class="vertical-bar">
+		<div class="search-icons">
+			<i class="fa fa-th-list"></i>
+			<i class="fa fa-search"></i>
+		</div>
+		<div class="social-icons">
+			<a href="https://www.instagram.com/bts.bighitofficial/"><i class="fa fa-instagram"></i></a>
+			<a href="https://twitter.com/BTS_twt"><i class="fa fa-twitter"></i></a>
+			<a href="https://web.facebook.com/bangtan.official/"><i class="fa fa-facebook"></i></a>
+			<a href="https://ibighit.com/bts/eng/"><i class="fa fa-globe"></i></a>
+		</div>
+	</div>
+	</div>
+
+	<script>
+		var show = document.getElementById("nav-links");
+		function showMenu() {
+			show.style.right = "0";
+		}
+		function closeMenu() {
+			show.style.right = "-200px";
+		}
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
